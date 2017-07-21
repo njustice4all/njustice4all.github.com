@@ -3,22 +3,23 @@
 <head>
     <meta charset="utf-8">
     
-    <title>Hello World | I want to believe</title>
+    <title>add-sass-to-create-react-app | I want to believe</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     
-        <meta name="keywords" content="" />
+        <meta name="keywords" content="sass" />
     
-    <meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+    <meta name="description" content="create-react-app 에서 sass 적용하기 yarn을 사용하여 sass-loader와 node-sass를 설치하자  yarn add sass-loader node-sass –dev  eject  1yarn run eject webpack.config.dev.js파일에서 module에 rules배열을 찾는다.1234567891011121314151">
+<meta name="keywords" content="sass">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hello World">
-<meta property="og:url" content="https://njustice4all.github.io/2017/07/20/hello-world/index.html">
+<meta property="og:title" content="add-sass-to-create-react-app">
+<meta property="og:url" content="https://njustice4all.github.io/2017/07/21/add-sass-to-create-react-app/index.html">
 <meta property="og:site_name" content="I want to believe">
-<meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+<meta property="og:description" content="create-react-app 에서 sass 적용하기 yarn을 사용하여 sass-loader와 node-sass를 설치하자  yarn add sass-loader node-sass –dev  eject  1yarn run eject webpack.config.dev.js파일에서 module에 rules배열을 찾는다.1234567891011121314151">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2017-07-20T13:48:50.322Z">
+<meta property="og:updated_time" content="2017-07-21T15:39:15.503Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hello World">
-<meta name="twitter:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+<meta name="twitter:title" content="add-sass-to-create-react-app">
+<meta name="twitter:description" content="create-react-app 에서 sass 적용하기 yarn을 사용하여 sass-loader와 node-sass를 설치하자  yarn add sass-loader node-sass –dev  eject  1yarn run eject webpack.config.dev.js파일에서 module에 rules배열을 찾는다.1234567891011121314151">
     
 
     
@@ -70,12 +71,8 @@
                                     <a class="main-nav-list-link" href="/">Home</a>
                                 </li>
                             
-                                        
+                                        <ul class="main-nav-list"><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/react/">react</a></li></ul>
                                     
-                                <li class="main-nav-list-item" >
-                                    <a class="main-nav-list-link" href="/about/index.html">About</a>
-                                </li>
-                            
                         </ul>
                         <nav id="sub-nav">
                             <div id="search-form-wrap">
@@ -129,18 +126,18 @@
                         <div class="main-body-header">
     <h1 class="header">
     
-    uncategorized
+    <a class="page-title-link" href="/categories/react/">react</a>
     </h1>
 </div>
                         <div class="main-body-content">
-                            <article id="post-hello-world" class="article article-single article-type-post" itemscope itemprop="blogPost">
+                            <article id="post-add-sass-to-create-react-app" class="article article-single article-type-post" itemscope itemprop="blogPost">
     <div class="article-inner">
         
             <header class="article-header">
                 
     
         <h1 class="article-title" itemprop="name">
-        Hello World
+        add-sass-to-create-react-app
         </h1>
     
 
@@ -150,25 +147,37 @@
             <div class="article-meta">
                 
     <div class="article-date">
-        <a href="/2017/07/20/hello-world/" class="article-date">
-            <time datetime="2017-07-20T13:48:50.322Z" itemprop="datePublished">2017-07-20</time>
+        <a href="/2017/07/21/add-sass-to-create-react-app/" class="article-date">
+            <time datetime="2017-07-21T14:44:12.000Z" itemprop="datePublished">2017-07-21</time>
         </a>
     </div>
 
                 
+    <div class="article-tag">
+        <i class="fa fa-tag"></i>
+        <a class="tag-link" href="/tags/sass/">sass</a>
+    </div>
+
             </div>
         
         
         <div class="article-entry" itemprop="articleBody">
-            <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+            <h1 id="create-react-app-에서-sass-적용하기"><a href="#create-react-app-에서-sass-적용하기" class="headerlink" title="create-react-app 에서 sass 적용하기"></a>create-react-app 에서 sass 적용하기</h1><p><strong> yarn을 사용하여 sass-loader와 node-sass를 설치하자 </strong></p>
+<p><code>yarn add sass-loader node-sass –dev</code></p>
+<p><strong> eject </strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">yarn run eject</div></pre></td></tr></table></figure>
+<p><code>webpack.config.dev.js</code>파일에서 <code>module</code>에 <code>rules</code>배열을 찾는다.<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div></pre></td><td class="code"><pre><div class="line">module: &#123;</div><div class="line">    strictExportPresence: true,</div><div class="line">    rules: [</div><div class="line">      // TODO: Disable require.ensure as it&apos;s not a standard language feature.</div><div class="line">      // We are waiting for https://github.com/facebookincubator/create-react-app/issues/2176.</div><div class="line">      // &#123; parser: &#123; requireEnsure: false &#125; &#125;,</div><div class="line"></div><div class="line">      // First, run the linter.</div><div class="line">      // It&apos;s important to do this before Babel processes the JS.</div><div class="line">      &#123;</div><div class="line">        test: /\.(js|jsx)$/,</div><div class="line">        enforce: &apos;pre&apos;,</div><div class="line">        use: [</div><div class="line">          &#123;</div><div class="line">            options: &#123;</div><div class="line">              formatter: eslintFormatter,</div><div class="line"></div><div class="line">            &#125;,</div><div class="line">            loader: require.resolve(&apos;eslint-loader&apos;),</div><div class="line">          &#125;,</div><div class="line">        ],</div><div class="line">        include: paths.appSrc,</div><div class="line">      &#125;,</div></pre></td></tr></table></figure></p>
+<p>이곳에 sass나 scss를 아래와같이 추가해준다.</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line">&#123;</div><div class="line">  test: /\.sass$/,</div><div class="line">  include: paths.appSrc,</div><div class="line">  loaders: [&quot;style&quot;, &quot;css&quot;, &quot;sass&quot;]</div><div class="line">&#125;,</div><div class="line">// 혹은</div><div class="line">&#123;</div><div class="line">  test: /\.scss$/,</div><div class="line">  include: paths.appSrc,</div><div class="line">  loaders: [&quot;style&quot;, &quot;css&quot;, &quot;sass&quot;]</div><div class="line">&#125;,</div></pre></td></tr></table></figure>
+<p>마지막으로 <code>exclude</code>배열을 찾아서</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">/\.sass$/,</div><div class="line">/\.scss$/,</div></pre></td></tr></table></figure>
+<p>추가해준다.</p>
+<p>이제 <code>import ‘./test.scss’</code>해도 잘 된다. 는 안된다.</p>
+<p>yarn으로 위에 두 패키지만 설치해주고 아래의 방법으로 하면 된다.</p>
+<p>webpack 공식 사이트에 나온 방법</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div></pre></td><td class="code"><pre><div class="line">module.exports = &#123;</div><div class="line">    ...</div><div class="line">    module: &#123;</div><div class="line">        rules: [&#123;</div><div class="line">            test: /\.scss$/,</div><div class="line">            use: [&#123;</div><div class="line">                loader: &quot;style-loader&quot; // creates style nodes from JS strings</div><div class="line">            &#125;, &#123;</div><div class="line">                loader: &quot;css-loader&quot; // translates CSS into CommonJS</div><div class="line">            &#125;, &#123;</div><div class="line">                loader: &quot;sass-loader&quot; // compiles Sass to CSS</div><div class="line">            &#125;]</div><div class="line">        &#125;]</div><div class="line">    &#125;</div><div class="line">&#125;;</div></pre></td></tr></table></figure>
+<p>나의 멍청함으로 시간을 날렸다.</p>
+<p>반성하자.</p>
 
         </div>
         <footer class="article-footer">
@@ -176,7 +185,7 @@
 
 
 
-    <a data-url="https://njustice4all.github.io/2017/07/20/hello-world/" data-id="cj5dye90r0001awu3fa4ieuv9" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+    <a data-url="https://njustice4all.github.io/2017/07/21/add-sass-to-create-react-app/" data-id="cj5e17ygy0000asu3le8scljc" class="article-share-link"><i class="fa fa-share"></i>Share</a>
 <script>
     (function ($) {
         $('body').on('click', function() {
@@ -271,21 +280,6 @@
     </div>
     
         
-<nav id="article-nav">
-    
-        <a href="/2017/07/21/begin-algorithm/" id="article-nav-newer" class="article-nav-link-wrap">
-        <strong class="article-nav-caption">newer</strong>
-        <p class="article-nav-title">
-        
-            tryhelloworld에서 풀었던 알고리즘
-        
-        </p>
-        <i class="icon fa fa-chevron-right" id="icon-chevron-right"></i>
-    </a>
-    
-    
-</nav>
-
     
     <div class="widgets-container">
         
@@ -299,18 +293,9 @@
                     <li>
                         
                         <div class="item-inner">
-                            <p class="item-category"></p>
-                            <p class="item-title"><a href="/2017/07/21/begin-algorithm/" class="title">tryhelloworld에서 풀었던 알고리즘</a></p>
-                            <p class="item-date"><time datetime="2017-07-21T13:58:02.000Z" itemprop="datePublished">2017-07-21</time></p>
-                        </div>
-                    </li>
-                
-                    <li>
-                        
-                        <div class="item-inner">
-                            <p class="item-category"></p>
-                            <p class="item-title"><a href="/2017/07/20/hello-world/" class="title">Hello World</a></p>
-                            <p class="item-date"><time datetime="2017-07-20T13:48:50.322Z" itemprop="datePublished">2017-07-20</time></p>
+                            <p class="item-category"><a class="article-category-link" href="/categories/react/">react</a></p>
+                            <p class="item-title"><a href="/2017/07/21/add-sass-to-create-react-app/" class="title">add-sass-to-create-react-app</a></p>
+                            <p class="item-date"><time datetime="2017-07-21T14:44:12.000Z" itemprop="datePublished">2017-07-21</time></p>
                         </div>
                     </li>
                 
@@ -320,13 +305,20 @@
 
             
                 
+    <div class="widget-wrap widget-list">
+        <h3 class="widget-title">categories</h3>
+        <div class="widget">
+            <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/react/">react</a><span class="category-list-count">1</span></li></ul>
+        </div>
+    </div>
+
 
             
                 
     <div class="widget-wrap widget-list">
         <h3 class="widget-title">archives</h3>
         <div class="widget">
-            <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/07/">July 2017</a><span class="archive-list-count">2</span></li></ul>
+            <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/07/">July 2017</a><span class="archive-list-count">1</span></li></ul>
         </div>
     </div>
 
@@ -336,7 +328,7 @@
     <div class="widget-wrap widget-list">
         <h3 class="widget-title">tags</h3>
         <div class="widget">
-            <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/algorithm/">algorithm</a><span class="tag-list-count">1</span></li></ul>
+            <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/sass/">sass</a><span class="tag-list-count">1</span></li></ul>
         </div>
     </div>
 
@@ -346,7 +338,7 @@
     <div class="widget-wrap widget-float">
         <h3 class="widget-title">tag cloud</h3>
         <div class="widget tagcloud">
-            <a href="/tags/algorithm/" style="font-size: 10px;">algorithm</a>
+            <a href="/tags/sass/" style="font-size: 10px;">sass</a>
         </div>
     </div>
 
@@ -390,7 +382,7 @@
     var disqus_shortname = 'hexo-theme-hueman';
     
     
-    var disqus_url = 'https://njustice4all.github.io/2017/07/20/hello-world/';
+    var disqus_url = 'https://njustice4all.github.io/2017/07/21/add-sass-to-create-react-app/';
     
     (function() {
     var dsq = document.createElement('script');

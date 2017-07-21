@@ -67,12 +67,8 @@
                                     <a class="main-nav-list-link" href="/">Home</a>
                                 </li>
                             
-                                        
+                                        <ul class="main-nav-list"><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/react/">react</a></li></ul>
                                     
-                                <li class="main-nav-list-item" >
-                                    <a class="main-nav-list-link" href="/about/index.html">About</a>
-                                </li>
-                            
                         </ul>
                         <nav id="sub-nav">
                             <div id="search-form-wrap">
@@ -151,51 +147,23 @@
         
         <div class="article-meta">
             <div class="category">
-            
+            <a class="article-category-link" href="/categories/react/">react</a>
             </div>
-            <div class="date"><time datetime="2017-07-21T13:58:02.000Z" itemprop="datePublished">2017-07-21</time></div>
+            <div class="date"><time datetime="2017-07-21T14:44:12.000Z" itemprop="datePublished">2017-07-21</time></div>
         </div>
         
     
         <h1 class="article-title" itemprop="name">
-        <a href="/2017/07/21/begin-algorithm/">tryhelloworld에서 풀었던 알고리즘</a>
+        <a href="/2017/07/21/add-sass-to-create-react-app/">add-sass-to-create-react-app</a>
         </h1>
     
 
         <p class="article-excerpt">
-            
-핸드폰번호 가리기
-
-
-별이는 헬로월드텔레콤에서 고지서를 보내는 일을 하고 있습니다.개인정보 보호를 위해 고객들의 전화번호는 맨 뒷자리 4자리를 제외한 나머지를 x로 바꿔야 합니다.전화번호를 문자열 s로 입력받는 hide_numbers함수를 완성해 별이를 도와주세요예를들어 s가 “01033334444”면 “xxxxxxx4444”를 리턴하고, “0277788
-        </p>
-    </div>
-</article>
-    
-
-    
-    
-    
-    
-        <article class="article article-summary">
-    <div class="article-summary-inner">
-        
-        <div class="article-meta">
-            <div class="category">
-            
-            </div>
-            <div class="date"><time datetime="2017-07-20T13:48:50.322Z" itemprop="datePublished">2017-07-20</time></div>
-        </div>
-        
-    
-        <h1 class="article-title" itemprop="name">
-        <a href="/2017/07/20/hello-world/">Hello World</a>
-        </h1>
-    
-
-        <p class="article-excerpt">
-            Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
-Quick
+            create-react-app 에서 sass 적용하기 yarn을 사용하여 sass-loader와 node-sass를 설치하자 
+yarn add sass-loader node-sass –dev
+ eject 
+1yarn run eject
+webpack.config.dev.js파일에서 module에 rules배열을 찾는다.1234567891011121314151
         </p>
     </div>
 </article>
@@ -239,18 +207,9 @@ Quick
                     <li>
                         
                         <div class="item-inner">
-                            <p class="item-category"></p>
-                            <p class="item-title"><a href="/2017/07/21/begin-algorithm/" class="title">tryhelloworld에서 풀었던 알고리즘</a></p>
-                            <p class="item-date"><time datetime="2017-07-21T13:58:02.000Z" itemprop="datePublished">2017-07-21</time></p>
-                        </div>
-                    </li>
-                
-                    <li>
-                        
-                        <div class="item-inner">
-                            <p class="item-category"></p>
-                            <p class="item-title"><a href="/2017/07/20/hello-world/" class="title">Hello World</a></p>
-                            <p class="item-date"><time datetime="2017-07-20T13:48:50.322Z" itemprop="datePublished">2017-07-20</time></p>
+                            <p class="item-category"><a class="article-category-link" href="/categories/react/">react</a></p>
+                            <p class="item-title"><a href="/2017/07/21/add-sass-to-create-react-app/" class="title">add-sass-to-create-react-app</a></p>
+                            <p class="item-date"><time datetime="2017-07-21T14:44:12.000Z" itemprop="datePublished">2017-07-21</time></p>
                         </div>
                     </li>
                 
@@ -260,13 +219,20 @@ Quick
 
             
                 
+    <div class="widget-wrap widget-list">
+        <h3 class="widget-title">categories</h3>
+        <div class="widget">
+            <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/react/">react</a><span class="category-list-count">1</span></li></ul>
+        </div>
+    </div>
+
 
             
                 
     <div class="widget-wrap widget-list">
         <h3 class="widget-title">archives</h3>
         <div class="widget">
-            <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/07/">July 2017</a><span class="archive-list-count">2</span></li></ul>
+            <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/07/">July 2017</a><span class="archive-list-count">1</span></li></ul>
         </div>
     </div>
 
@@ -276,7 +242,7 @@ Quick
     <div class="widget-wrap widget-list">
         <h3 class="widget-title">tags</h3>
         <div class="widget">
-            <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/algorithm/">algorithm</a><span class="tag-list-count">1</span></li></ul>
+            <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/sass/">sass</a><span class="tag-list-count">1</span></li></ul>
         </div>
     </div>
 
@@ -286,7 +252,7 @@ Quick
     <div class="widget-wrap widget-float">
         <h3 class="widget-title">tag cloud</h3>
         <div class="widget tagcloud">
-            <a href="/tags/algorithm/" style="font-size: 10px;">algorithm</a>
+            <a href="/tags/sass/" style="font-size: 10px;">sass</a>
         </div>
     </div>
 
