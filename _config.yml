@@ -66,10 +66,10 @@ related: false
 post-advance-links: [blog]
 
 # show author block at the end of a post ?
-show-author: true
+show-author: false
 
 # Author details.
-authors:
+author:
   njustice4all:
     name: 한영주
     bio: 나는 믿고싶다
