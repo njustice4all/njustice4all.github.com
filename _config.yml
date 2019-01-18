@@ -73,7 +73,7 @@ authors:
   njustice4all:
     name: 한영주
     bio: 나는 믿고싶다
-    external-image: false
+    external-image: true
     picture: assets/images/profile.jpeg
     web: http://github.com/njustice4all
 
