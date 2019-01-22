@@ -29,7 +29,7 @@ h4
 
 a
 	color: $delta
-	text-decoration: underline
+	text-decoration: none !important
 
 p
 	line-height: 1.7
@@ -78,7 +78,8 @@ figcaption
 
 blockquote
 	padding-left: 15px
-	border-left: 3px solid #eee
+	border-left: 5px solid
+	margin-left: 0 !important
 
 hr
 	border: none
@@ -90,6 +91,29 @@ hr
 figure.highlight
 	width: 100%
 	margin: 0
+
+code,
+tt
+	padding: 1px 0
+	font-family: $fontMonospace
+	font-size: 12px
+	line-height: 20px
+	background: #fff
+	border-radius: 2px
+	border-radius: 2px
+
+pre
+	box-sizing: border-box
+	margin: 0 0 1.75em 0
+	width: 100%
+	padding: 5px 10px
+	font-family: $fontMonospace
+	font-size: 1.2rem
+	line-height: 2rem
+	overflow: auto
+	background: #fff
+	border: 1px solid $epsilon
+	border-radius: 2px
 
 .wrapper-normal,
 .wrapper-large
@@ -108,3 +132,21 @@ figure.highlight
 
 .wrapper-large
 	max-width: 810px
+
+::selection
+	background: #f08888
+	color: #FFF
+	text-shadow: none
+
+::-moz-selection
+	ackground: #f08888
+	color: #FFF
+	text-shadow: none
+
+::-webkit-selection
+	background: #f08888
+	color: #FFF
+	text-shadow: none
+
+.title-hr
+	background: #f08888
