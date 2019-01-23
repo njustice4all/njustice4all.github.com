@@ -10,7 +10,7 @@ author: Njustice4all
 externalLink: false
 ---
 
-# 패키지 설치와 구조설정
+많이쓰는 node express mongodb 조합으로 회원가입과 github인증등을 구현. 첫번째로는 프로젝트의 구조등을 설정함.
 
 ### 구조
 
@@ -18,11 +18,15 @@ externalLink: false
 
 위 구조에서 지금 당장은 models폴더가 필요하지 않다.
 
+---
+
 ### 필요한 패키지 설치
 
 `yarn add express mongoose dotenv`
 
-> webpack과 nodemon도 global설치하자
+> 필요에따라 webpack과 nodemon도 global설치하자
+
+---
 
 ### webpack.config.js 설정
 
@@ -56,6 +60,8 @@ module.exports = {
 };
 ```
 
+---
+
 ### 앱의 진입점을 src/index.js로 했으니 작성
 
 ```javascript
@@ -86,7 +92,9 @@ app.listen(constants.PORT, err => {
 });
 ```
 
-config폴더내의 db.js와 constants.js가 필요하니까 작성해야한다. db는 mongoose를 사용해서 mongodb를 구동하고 constants는 mongodb와 api에 사용하는 상수들을 객체로 가져온다
+---
+
+`config`폴더내의 `db.js`와 `constants.js`가 필요하니까 작성해야한다. db는 mongoose를 사용해서 mongodb를 구동하고 constants는 mongodb와 api에 사용하는 상수들을 객체로 가져온다
 
 ### index에서 필요한 config폴더의 db.js와 constants.js작성
 
@@ -151,6 +159,8 @@ export default {
 };
 ```
 
+---
+
 ### 미들웨어구현
 
 ```javascript
@@ -189,7 +199,9 @@ export default app => {
 };
 ```
 
-> 패키지 설치한게 많은데 필요없는건 설치 안해도된다. 그리고 앱 루트폴더에 .env파일을 만들어 적절하게 필요한 값을 입력한다.
+> 패키지 설치한게 많은데 필요없는건 설치 안해도된다. 그리고 앱 루트폴더에 `.env`파일을 만들어 적절하게 필요한 값을 입력한다.
+
+---
 
 ### 실행과 결과
 
@@ -198,3 +210,5 @@ export default app => {
 ![결과1](../assets/images/posts/results1.png)
 
 ![결과2](../assets/images/posts/results2.png)
+
+**continue...**

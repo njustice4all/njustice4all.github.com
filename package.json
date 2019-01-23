@@ -1,0 +1,16 @@
+{
+  "name": "njustice4all.github.io",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/njustice4all/njustice4all.github.io.git",
+  "author": "njustice4all <urdlove@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "bundle exec jekyll serve",
+    "babel": "npx babel --watch assets/js --out-dir assets/babel --presets react-app/prod"
+  },
+  "dependencies": {
+    "babel-cli": "6",
+    "babel-preset-react-app": "3"
+  }
+}
