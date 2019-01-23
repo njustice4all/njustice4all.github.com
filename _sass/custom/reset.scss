@@ -1,0 +1,13 @@
+.nav {
+  @media (max-width: 768px) {
+    position: absolute;
+  }
+}
+
+@media (max-width: 768px) {
+  h1,
+  h2,
+  h3 {
+    word-break: break-word;
+  }
+}
