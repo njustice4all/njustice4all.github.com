@@ -29,7 +29,7 @@ var StickNavigator = function (_React$Component) {
       var headers = [];
       links.forEach(function (link) {
         if (link.hasAttribute('id')) {
-          elements ? headers.push(link) : headers.push(link.getAttribute('id'));
+          elements ? headers.push(link) : headers.push(link.textContent);
         }
       });
 
@@ -42,21 +42,21 @@ var StickNavigator = function (_React$Component) {
       });
     }, _this.onScroll = function (e) {
       var headers = _this.getHTags('elements');
-      var ids = [];
+      var texts = [];
 
       headers.forEach(function (header) {
         var rect = header.getBoundingClientRect();
 
         if (rect.top < 10) {
-          ids.push(header.getAttribute('id'));
+          texts.push(header.textContent);
         }
       });
 
-      var activeText = ids[ids.length - 1];
+      var activeText = texts[texts.length - 1];
 
       _this.ul.childNodes.forEach(function (li) {
         li.classList.remove('active');
-        if (li.firstChild.text === activeText) {
+        if (li.firstChild.textContent === activeText) {
           li.classList.add('active');
         }
       });

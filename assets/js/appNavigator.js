@@ -20,7 +20,7 @@ class StickNavigator extends React.Component {
     const headers = [];
     links.forEach(link => {
       if (link.hasAttribute('id')) {
-        elements ? headers.push(link) : headers.push(link.getAttribute('id'));
+        elements ? headers.push(link) : headers.push(link.textContent);
       }
     });
 
@@ -35,21 +35,21 @@ class StickNavigator extends React.Component {
 
   onScroll = e => {
     const headers = this.getHTags('elements');
-    const ids = [];
+    const texts = [];
 
     headers.forEach(header => {
       const rect = header.getBoundingClientRect();
 
       if (rect.top < 10) {
-        ids.push(header.getAttribute('id'));
+        texts.push(header.textContent);
       }
     });
 
-    const activeText = ids[ids.length - 1];
+    const activeText = texts[texts.length - 1];
 
     this.ul.childNodes.forEach(li => {
       li.classList.remove('active');
-      if (li.firstChild.text === activeText) {
+      if (li.firstChild.textContent === activeText) {
         li.classList.add('active');
       }
     });
