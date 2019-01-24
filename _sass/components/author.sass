@@ -1,24 +1,28 @@
 .author
-    padding: 3rem 0
     border-bottom: 1px solid $epsilon
     border-top: 1px solid $epsilon
     max-width: 100%
     margin: 4rem auto 0
+    display: flex
+    align-items: center
+    justify-content: center
 
     > .toleft > .selfie
-        width: 90%
+        width: 60px
+        margin-right: 1rem
         border-radius: 100%
 
     > .toright > .name,
     > .toright > .bio
-        width: 60%
-        display: inline-block
+        flex: 1
 
     > .toright > .name
+        display: flex !important
         font-size: 1.5rem
         font-family: $fontSans
         font-weight: 500
         margin: 6px 0 0
+        color: #666
 
         @media #{$mobile}
             width: 100%
@@ -46,19 +50,19 @@
             display: block
 
     > .toleft
-        width: 10%
         display: inline-block
 
         @media #{$mobile}
+            margin-right: 1rem
             width: 20%
 
         @media #{$tablet}
             width: 20%
 
     > .toright
-        width: 89%
         display: inline-block
         vertical-align: top
+        flex: 1
 
         @media #{$mobile}
             width: 78%
@@ -69,3 +73,6 @@
 .no-disqus
     border-bottom: none
     padding-bottom: 0
+
+.color-red
+    color: #f08888

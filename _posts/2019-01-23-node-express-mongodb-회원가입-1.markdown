@@ -6,7 +6,7 @@ tag: [node, express, mongodb]
 image: ../assets/images/posts/github.jpg
 headerImage: true
 category: blog
-author: Njustice4all
+author: AngelKing47
 externalLink: false
 ---
 

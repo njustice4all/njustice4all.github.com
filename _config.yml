@@ -69,12 +69,15 @@ post-advance-links: [blog]
 show-author: false
 
 # Author details.
-author:
-  njustice4all:
-    name: Njustice4all
-    bio: 나는 믿고싶다
+authors:
+  AngelKing47:
+    a: A
+    ngel: ngel
+    k: K
+    ing: ing
+    bio: I WANT TO BELIEVE
     external-image: true
-    picture: assets/images/profile.jpeg
+    picture: ../assets/images/angelking47.jpg
     web: http://github.com/njustice4all
 
 # do you want some animations?
