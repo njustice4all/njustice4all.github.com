@@ -1,0 +1,50 @@
+@keyframes rotate_move {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.about-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+
+  .string-rotate {
+    text-transform: uppercase;
+    display: inline-block;
+    font-size: 30px;
+    margin: 3rem;
+  }
+
+  .str-1 {
+    animation: rotate_move 1s infinite;
+  }
+  .str-2 {
+    animation: rotate_move 2s infinite;
+  }
+  .str-3 {
+    animation: rotate_move 3s infinite;
+  }
+  .str-4 {
+    animation: rotate_move 4s infinite;
+  }
+  .str-5 {
+    animation: rotate_move 5s infinite;
+  }
+  .str-6 {
+    animation: rotate_move 6s infinite;
+  }
+  .str-7 {
+    animation: rotate_move 7s infinite;
+  }
+  .str-8 {
+    animation: rotate_move 8s infinite;
+  }
+  .str-9 {
+    animation: rotate_move 9s infinite;
+  }
+}

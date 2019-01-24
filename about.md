@@ -5,4 +5,4 @@ layout: page
 
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 
-# EMPTY
+<div id="about-container"></div>
