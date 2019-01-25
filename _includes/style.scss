@@ -10,7 +10,7 @@
   }
 }
 
-@include font('Input-Mono', '../assets/fonts/InputMono-Regular');
+@include font('Input-Mono', '/assets/fonts/InputMono-Regular');
 
 @import 'base/variables';
 @import 'base/normalize';
