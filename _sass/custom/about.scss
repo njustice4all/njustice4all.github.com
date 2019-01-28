@@ -48,3 +48,10 @@
     animation: rotate_move 9s infinite;
   }
 }
+
+@media (max-width: 768px) {
+  .string-rotate {
+    font-size: 2rem !important;
+    margin: 1.1rem !important;
+  }
+}
