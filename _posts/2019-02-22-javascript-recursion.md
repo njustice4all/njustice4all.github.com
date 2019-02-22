@@ -137,6 +137,29 @@ function flattenDeep(arr) {
 
 ---
 
+### FLAT#2
+
+이건 예전에 면접에서 봤던 문제. 해당 배열을 오브젝트 제외하고 1차 배열로 만든다.
+
+```javascript
+const data = [1, 'hi', undefined, NaN, [1, 2, 3, [NaN, 'hi'], [3]], { a: 'hello' }];
+const flatten = arr => {
+  return arr.reduce((acc, value) => {
+    if (Array.isArray(value)) {
+      acc.push(...flatten(value));
+    } else {
+      acc.push(value);
+    }
+
+    return acc;
+  }, []);
+};
+
+flatten(data);
+```
+
+---
+
 ### 다시 트리구조로?
 
 1차원 배열로 만든 뒤 몇가지 작업을하고 다시 트리구조로 바꾸려 했지만 문제가 생겼다.
