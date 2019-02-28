@@ -8,7 +8,7 @@ layout: page
 <div id="about-container"></div>
 
 <div class="resume">
-  <a href="/assets/지원서 - 한영주.pdf">RESUME.PDF</a>
+  <a href="/assets/지원서 - 한영주.pdf">PDF파일로 보기</a>
 </div>
 
 ---
