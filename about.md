@@ -8,7 +8,8 @@ layout: page
 <div id="about-container"></div>
 
 <div class="resume">
-  <a href="/assets/지원서 - 한영주.pdf">PDF파일로 보기</a>
+  <a href="/assets/resume.pdf">PDF파일로 보기</a>
+  <!-- <a href="https://drive.google.com/open?id=1h7mlaOZcZS24kRQUkYGvJ1Q3m_rT41Bd">PDF파일로 보기</a> -->
 </div>
 
 ---
