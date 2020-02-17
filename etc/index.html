@@ -5,26 +5,9 @@ layout: page
 title: ETC
 ---
 
-<section class="list">
-  {% if site.posts.size == 0 %}
-    <p class="text-center">Nothing published yet!</p>
-    {% elsif site.paginate %}
-      {% for post in paginator.posts %}
-      {% assign count = forloop.index0 | modulo: 2 %}
-        {% if post.category == 'etc' %}
-          {% if count == 0 %}
-            <div class="article-row">
-              {% include etc-post.html %}
-            {% if forloop.last == true %}
-            </div>
-            {% endif %}
-            {% else %}
-              {% include etc-post.html %}
-            </div>
-          {% endif %}
-        {% endif %}
-      {% endfor %}
-      {% include pagination.html %}
-    {% else %}
-  {% endif %}
-</section>
+<div>
+  <h3>hmm</h3>
+  <video width="100%" controls>
+    <source src="/assets/images/posts/200217/schedule_bulk-delete.mp4" type="video/mp4" />
+  </video>
+</div>
