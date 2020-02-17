@@ -9,14 +9,27 @@ layout: page
 
 <div class="resume">
   <a href="/assets/resume.pdf">PDF파일로 보기</a>
-  <!-- <a href="https://drive.google.com/open?id=1h7mlaOZcZS24kRQUkYGvJ1Q3m_rT41Bd">PDF파일로 보기</a> -->
 </div>
 
 ---
 
 ## 굿닥 2018.10 -
 
-- 굿닥 접수 모바일홈 마이그레이션
+- 굿닥 v3 접수예약 관리시스템
+
+  타임테이블의 시각화를 통해 접수예약을 관리함. 로직은 프론트에서 구현하고 api를 통해 데이터만 주고받음
+
+  typescript / react / redux
+
+- 굿닥 운영 어드민 배너 업로드 자동화
+
+  운영팀이 담당하며 요청한 이벤트 이미지 및 배너를 s3에 예약시간에 맞춰 업로드하여 자동화함
+
+  node, express / typescript
+
+- 굿닥 접수 알림톡 마이그레이션및 운영
+
+  병원접수 -> 카카오톡 알림톡 -> 모바일화면
 
   treasureData, GoogleAnalytics추가 / angular -> react / typescript / redux-saga
 
