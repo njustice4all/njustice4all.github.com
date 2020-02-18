@@ -1,17 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR');
-// @mixin font($font-family, $font-file) {
-//   @font-face {
-//     font-family: $font-family;
-//     src: url($font-file+'.eot');
-//     src: url($font-file+'.eot?#iefix') format('embedded-opentype'),
-//       url($font-file+'.ttf') format('truetype'), url($font-file+'.svg#aller') format('svg');
-//     font-weight: normal;
-//     font-style: normal;
-//   }
-// }
-
-// @include font('Input-Mono', '/assets/fonts/InputMono-Regular');
-@import url('https://fonts.googleapis.com/css?family=Fira+Mono');
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);
 
 @import 'base/variables';
 @import 'base/normalize';
@@ -36,9 +24,14 @@
 @import 'components/side-by-side';
 @import 'components/social-links';
 @import 'components/spoiler';
+@import 'components/projects';
 
 @import 'custom/sticky-nav';
 @import 'custom/reset';
 @import 'custom/author';
 @import 'custom/about';
 @import 'custom/article';
+
+html {
+  letter-spacing: 0.5px;
+}
