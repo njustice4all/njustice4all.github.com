@@ -50,6 +50,29 @@ layout: compress
 
     {% include icons.html %}
 </body>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.9.3/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.9.3/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyBkR_vpnMxZzXivED5YgeDz4NrQhIdQcVI",
+    authDomain: "njustice4all-github-io.firebaseapp.com",
+    databaseURL: "https://njustice4all-github-io.firebaseio.com",
+    projectId: "njustice4all-github-io",
+    storageBucket: "njustice4all-github-io.appspot.com",
+    messagingSenderId: "901375426547",
+    appId: "1:901375426547:web:547892d61dcfa096cf5c86",
+    measurementId: "G-00BZ47L78B"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
 <script src="/assets/babel/StickNavigator.js"></script>
 <script src="/assets/babel/Author.js"></script>
 <script src="/assets/babel/About.js"></script>
